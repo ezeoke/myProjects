@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Loan Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="loan.css" />
+</head>
+<body>
+    <div class="main">
+        <h1>Loan Calculator</h1>
+        <div class="one">
+            <div  class="gray">$</div>
+            <input type="number" id="amount" class="input"  placeholder="   Loan Amount">
+        </div>
+        <div class="one">
+            <div class="gray">%</div>
+            <input type="number" id="interest"  class="input" placeholder="   Interest">
+        </div>
+        <input type="number" placeholder="   Years to Repay" id="years" class="input1"><br>
+        <input type="submit" value="Calculate" id="calculate" class="input1 grey">
+        <div id="loading">
+            <img src="./images/loading.gif" alt="">
+        </div>
+        <div id="results">
+            <h2>Results</h2>
+            <div class="one">
+                <div  class="grab">Monthly Payment</div>
+                <input type="number" id="monPayment" class="input2" disabled>
+            </div>
+            <div class="one">
+                <div  class="grab">Total Payment</div>
+                <input type="number" id="totPayment" class="input2" disabled>
+            </div>
+            <div class="one">
+                <div  class="grab">Total Interest</div>
+                <input type="number" id="totInterest" class="input2" disabled >
+            </div>
+        </div>
+    </div>
+    <script src="loan.js"></script>
+</body>
+</html>

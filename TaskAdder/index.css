@@ -1,0 +1,57 @@
+body{
+   background: grey
+}
+
+.main {
+    margin: auto auto;
+    margin-top: 5rem;
+    width: 70%;
+    border: .3px solid gainsboro;
+    padding-left: 1rem;
+    background: floralwhite
+}
+
+input {
+    border: 0;
+    border-bottom: 1px solid gray;
+    width: 95%
+}
+
+ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-left: -3rem;
+    margin-right: 1rem;
+    color: black;
+    background: rgba(57, 56, 65, 0.349);
+    border: 1px solid rgba(57, 56, 65, 0.349)
+}
+
+.fas {
+    color: red
+}
+
+.add {
+    margin-top: 3rem;
+    margin-bottom: 2.5rem
+}
+
+.clear {
+   background: black;
+   height: 2rem;
+   color: white
+}
+
+hr {
+    margin-left: -1rem;
+    color: gainsboro;
+    margin-bottom: 2.5rem
+}
+ 
+#filter {
+    margin-bottom: 3rem;
+}
